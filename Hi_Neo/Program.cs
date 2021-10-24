@@ -8,10 +8,7 @@ namespace Hi_Neo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Введите имя пользователя:");
-            string userName = Console.ReadLine();
-            Console.WriteLine($"Привет, {userName}, сегодня {DateTime.Now}");
-            Console.ReadLine();
+            Console.WriteLine("Коля программист");
         }
     }
 }
